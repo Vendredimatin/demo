@@ -14,7 +14,7 @@ public class DemoApplication {
     @RequestMapping("/home")
     String home(HttpServletRequest request) {
         String userName = "Jef";
-        int count = 102;
+        int count = 103;
         return "欢迎您" + userName + "，这是您的第 " + count + " 次登录";
     }
 
